@@ -2712,6 +2712,11 @@ eslint-plugin-prettier@^3.3.1:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
+eslint-plugin-svelte3@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-svelte3/-/eslint-plugin-svelte3-3.1.1.tgz#dabd16dd0c8af82fd625ac0c0d76d43cf23139ca"
+  integrity sha512-fZ8YA7vPYMW6jEOhHLfl/IS6rXh92NkzR8UxMleXWT/QHKzTwkMl/f6WiEM9MUU7jxG6YzWE0MJVDoQvGTzI2A==
+
 eslint-plugin-unicorn@^28.0.2:
   version "28.0.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-28.0.2.tgz#ab9884ebae04590ecd9c1c294330d889a74b7c37"

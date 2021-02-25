@@ -3,6 +3,14 @@ module.exports = {
 		browser: true,
 		es2021: true,
 	},
+	plugins: [
+		'@typescript-eslint',
+		'prettier',
+		'jsdoc',
+		'unicorn',
+		'import',
+		'svelte3',
+	],
 	extends: [
 		'plugin:@typescript-eslint/recommended',
 		'plugin:prettier/recommended',
@@ -15,7 +23,15 @@ module.exports = {
 		ecmaVersion: 12,
 		sourceType: 'module',
 	},
-	plugins: ['@typescript-eslint', 'prettier', 'jsdoc', 'unicorn', 'import'],
+	overrides: [
+		{
+			files: ['*.svelte'],
+			processor: 'svelte3/svelte3',
+		},
+	],
+	settings: {
+		'svelte3/typescript': require('typescript'),
+	},
 	rules: {
 		'prefer-arrow-callback': 2,
 		'arrow-parens': 2,
