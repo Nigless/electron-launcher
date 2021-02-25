@@ -1,0 +1,7 @@
+﻿node_modules/
+dist/
+.cache/
+.git/
+yarn.lock
+*.json
+*.code-workspace
